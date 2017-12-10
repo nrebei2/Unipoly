@@ -51,8 +51,8 @@ public class PlayerStone : MonoBehaviour
 
 	Vector3 targetPosition;
     Vector3 velocity;
-    float smoothTime = 0.25f;
-    float smoothTimeVertical = 0.1f;
+    float smoothTime = 0.15f;
+    float smoothTimeVertical = 0.14f;
     float smoothDistance = 0.01f;
     float smoothHeight = 0.3f;
 
