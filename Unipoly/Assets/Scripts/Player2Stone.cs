@@ -137,10 +137,18 @@ public class Player2Stone : MonoBehaviour
 
 	public PlayerStone Player1;
 
+	public GameObject Player1Win;
 
 	// Update is called once per frame
 	void Update()
 	{
+
+		if (Player2Money <= 0f)
+		{
+			Player2Money = 0f;
+			Player1Win.SetActive(true);
+		}
+
 		if (theStateManager.CurrentPlayerId == 1)
 		{
 			if (isAnimating == false)
@@ -195,50 +203,62 @@ public class Player2Stone : MonoBehaviour
 		if (theStateManager.numberOfTilesPlayer2 == 41)
 		{
 			theStateManager.numberOfTilesPlayer2 = 1;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 42)
 		{
 			theStateManager.numberOfTilesPlayer2 = 2;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 43)
 		{
 			theStateManager.numberOfTilesPlayer2 = 3;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 44)
 		{
 			theStateManager.numberOfTilesPlayer2 = 4;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 45)
 		{
 			theStateManager.numberOfTilesPlayer2 = 5;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 46)
 		{
 			theStateManager.numberOfTilesPlayer2 = 6;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 47)
 		{
 			theStateManager.numberOfTilesPlayer2 = 7;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 48)
 		{
 			theStateManager.numberOfTilesPlayer2 = 8;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 49)
 		{
 			theStateManager.numberOfTilesPlayer2 = 9;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 50)
 		{
 			theStateManager.numberOfTilesPlayer2 = 10;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 51)
 		{
 			theStateManager.numberOfTilesPlayer2 = 11;
+			Player2Money += 200f;
 		}
 		if (theStateManager.numberOfTilesPlayer2 == 52)
 		{
 			theStateManager.numberOfTilesPlayer2 = 12;
+			Player2Money += 200f;
 		}
 
 	}
