@@ -310,7 +310,7 @@ public class Player2Stone : MonoBehaviour
 else if (Player1.Bought1 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 4f;
 }
 else
 {
@@ -334,7 +334,7 @@ else
 else if (Player1.Bought2 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 2f;
 }
 else
 {
@@ -358,7 +358,7 @@ else
 else if (Player1.Bought3 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 25f;
 }
 else
 {
@@ -377,7 +377,7 @@ else
 else if (Player1.Bought4 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 6f;
 }
 else
 {
@@ -401,7 +401,7 @@ else
 else if (Player1.Bought5 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 6f;
 }
 else
 {
@@ -420,7 +420,7 @@ else
 else if (Player1.Bought6 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 8f;
 }
 else
 {
@@ -444,7 +444,7 @@ else
 else if (Player1.Bought7 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 10f;
 }
 else
 {
@@ -463,7 +463,7 @@ else
 else if (Player1.Bought8 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 4 * theStateManager.DiceTotal;
 }
 else
 {
@@ -482,7 +482,7 @@ else
 else if (Player1.Bought9 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 10f;
 }
 else
 {
@@ -501,7 +501,7 @@ else
 else if (Player1.Bought10 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 12f;
 }
 else
 {
@@ -520,7 +520,7 @@ else
 else if (Player1.Bought11 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 25f;
 }
 else
 {
@@ -539,7 +539,7 @@ else
 else if (Player1.Bought12 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 14f;
 }
 else
 {
@@ -563,7 +563,7 @@ else
 else if (Player1.Bought13 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 14f;
 }
 else
 {
@@ -582,7 +582,7 @@ else
 else if (Player1.Bought14 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 16f;
 }
 else
 {
@@ -605,7 +605,7 @@ else
 else if (Player1.Bought15 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 18f;
 }
 else
 {
@@ -629,7 +629,7 @@ else
 else if (Player1.Bought16 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 18f;
 }
 else
 {
@@ -648,7 +648,7 @@ else
 else if (Player1.Bought17 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 20f;
 }
 else
 {
@@ -667,7 +667,7 @@ else
 else if (Player1.Bought18 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 25f;
 }
 else
 {
@@ -686,7 +686,7 @@ else
 else if (Player1.Bought19 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 22f;
 }
 else
 {
@@ -705,7 +705,7 @@ else
 else if (Player1.Bought20 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 22f;
 }
 else
 {
@@ -724,7 +724,7 @@ else
 else if (Player1.Bought21 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 4 * theStateManager.DiceTotal;
 }
 else
 {
@@ -743,7 +743,7 @@ else
 else if (Player1.Bought22 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 24f;
 }
 else
 {
@@ -766,7 +766,7 @@ else
 else if (Player1.Bought23 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 26f;
 }
 else
 {
@@ -785,7 +785,7 @@ else
 else if (Player1.Bought24 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 26f;
 }
 else
 {
@@ -809,7 +809,7 @@ else
 else if (Player1.Bought25 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 28f;
 }
 else
 {
@@ -828,7 +828,7 @@ else
 else if (Player1.Bought26 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 25f;
 }
 else
 {
@@ -852,7 +852,7 @@ else
 else if (Player1.Bought27 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 35f;
 }
 else
 {
@@ -876,7 +876,7 @@ else
 else if (Player1.Bought28 == true) 
 {
  RentCard2.SetActive(true);
- RentCard2.GetComponent<RentCard2>().RentPrice = 60f;
+ RentCard2.GetComponent<RentCard2>().RentPrice = 50f;
 }
 else
 {
